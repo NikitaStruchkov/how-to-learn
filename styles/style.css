@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 .header {
@@ -14,13 +15,90 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  position: relative;
+  outline: 1px solid red;
+  color: #000 ;
+  display: flex;
+  align-items: center;
+  background-color:  #f2f2f2;
+
+}
+ /* зачем нужен блок лого? */
+
+.logo {
+  outline: 1px solid red;
+
+}
+
+.logo__place_header {
+  width: 228px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+
+}
+
+.title {
+  outline: 1px solid red;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+  width: 730px;
+  z-index: 3;
+
+}
+
+.header__title {
+  margin-left: 64px;
+
+
+}
+
+.header__subtitle {
+  outline: 1px solid red;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  width: 388px;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+
+}
+
+.header__main-illustration {
+  min-width: none;width: 765px;
+  min-height: 608;
+  outline: 1px solid red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index:1 ;
+  object-fit: cover;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  outline: 1px solid red;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 0;
 }
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
