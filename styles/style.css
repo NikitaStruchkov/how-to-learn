@@ -100,6 +100,7 @@
   display: flex;
   justify-content: center;
   min-height: 332px;
+  color: #000 ;
 
 }
 
@@ -151,6 +152,129 @@
   font-size: 24px;
   font-weight: 600;
 }
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.digits {
+  color: #000 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.digits__section-title {
+  margin: 0;
+  width: 660px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  outline: 1px solid red;
+  text-align: center;
+}
+
+.digits__section-subtitle {
+  width: 660px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  outline: 1px solid red;
+  text-align: center;
+}
+
+.table {
+  width: 1100px;
+  min-height: 300px;
+  outline: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px 30px;
+
+}
+.table__cell {
+  width: 250px;
+  min-height: 50px;
+  outline: 1px solid red;
+}
+
+.table__cell_digits {
+  }
+
+.digits-head {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  outline: 1px solid red;
+}
+
+.digits-text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  outline: 1px solid red;
+}
+/* ------------------------------------------------- */
+
+.feynman {
+  color: #000 ;
+  position: relative;
+  min-height: 890px;
+  background-image: url(/images/feynman.png);
+  background-position: bottom left 0;
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  outline: 1px solid red;
+
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  text-align: center;
+  outline: 1px solid red;
+}
+
+.feynman__title-position {
+  width: 648px;
+  outline: 1px solid red;
+}
+
+.feynman__subtitle {
+  outline: 1px solid red;
+
+}
+
+.feynman__subtitle-position {
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  outline: 1px solid red;
+
+}
+
+.feynman__link {
+  width: 250px;
+  min-height: 52px;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  outline: 1px solid red;
+}
+
+.feynman__link-about {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+
+
+
 
 
 
