@@ -66,7 +66,7 @@
   font-weight: normal;
   width: 388px;
 }
-
+/* ссылка никуда не ведет */
 .header__link {
   color: #2f80ed;
   text-decoration: none;
@@ -95,7 +95,62 @@
   right: 0;
   z-index: 0;
 }
+/* -------------------------------------------------------------------------------------------  */
+.description {
+  display: flex;
+  justify-content: center;
+  min-height: 332px;
 
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  outline: 1px solid red;
+}
+
+.two-columns__description {
+   margin: 100px auto ;
+}
+
+.two-columns__brief {
+  width: 175px;
+  outline: 1px solid red;
+
+}
+
+.two-columns__brief-title {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  margin-top: 0;
+
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  /* не работает в сафари, зато работает в хром */
+  gap: 30px;
+  justify-content: space-between;
+
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
 
 
 
