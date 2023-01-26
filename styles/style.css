@@ -27,12 +27,12 @@
 
 .logo {
   outline: 1px solid red;
+  width: 228px;
+  height: 32px;
 
 }
 
 .logo__place_header {
-  width: 228px;
-  height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -189,9 +189,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 60px 30px;
+
 
 }
+.table_theme_white {
+  gap: 60px 30px;
+}
+
 .table__cell {
   width: 250px;
   min-height: 50px;
@@ -236,7 +240,7 @@
   margin: 100px auto 70px;
 }
 
-.feynman__title-position {
+.feynman__title_position {
   margin: 0 auto;
   line-height: 1.15;
   font-size: 120px;
@@ -252,7 +256,7 @@
 
 }
 
-.feynman__subtitle-position {
+.feynman__subtitle_position {
   margin-top: 0;
   text-align: center;
   line-height: 51px;
@@ -271,7 +275,7 @@
   outline: 1px solid red;
 }
 
-.feynman__link-about {
+.feynman__link_about {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -280,11 +284,55 @@
 }
 /* _________________________________________________________________________ */
 
+.kaufman {
+  background-color: #000;
+  overflow: hidden;
+  color: white;
+  position: relative;
 
+}
 
+.table_theme_dark {
+margin: 0 auto 90px;
+position: relative;
+z-index: 2;
+}
 
+.section-title_theme_dark {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  outline: 1px solid red;
+  text-align: center;
+  margin: 90px auto 20px;
 
+}
 
+.section-subtitle_theme_dark {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  outline: 1px solid red;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -292,4 +340,40 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.kaufman_triagle {
+  position: absolute;
+  right: -210px;
+  top: 0;
+  z-index: 1;
+  object-fit: cover;
+  width: 877px;
+  height: 877px;
+
+}
+
+/* ------------------------------ */
+.footer {
+  background-color: #000;
+  color: white;
+
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
