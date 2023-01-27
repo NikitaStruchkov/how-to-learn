@@ -16,7 +16,7 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   position: relative;
-  color: #000 ;
+  color: #000;
   display: flex;
   align-items: center;
   background-color:  #f2f2f2;
@@ -69,12 +69,13 @@
 }
 
 .header__main-illustration {
-  min-width: none;width: 765px;
+  min-width: none;
+  width: 765px;
   min-height: 608;
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index:1 ;
+  z-index: 1;
   object-fit: cover;
 
 }
@@ -93,7 +94,7 @@
   display: flex;
   justify-content: center;
   min-height: 332px;
-  color: #000 ;
+  color: #000;
 
 }
 
