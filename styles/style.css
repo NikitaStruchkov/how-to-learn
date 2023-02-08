@@ -120,7 +120,7 @@
 .two-columns {
   width: 80%;
   display: flex;
-  margin: 100px auto;
+  margin: 100px auto 0;
   justify-content: space-between;
 
 }
@@ -164,15 +164,10 @@
 .techniques {
   width: 80%;
   margin: 0 auto;
-  outline: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-}
-
-.section-subtitle {
-  outline: 1px solid red;
 }
 
 .cards {
@@ -181,20 +176,17 @@
   flex-wrap: wrap;
   justify-content: start;
   gap: 0 100px;
-  outline: 1px solid red;
   margin: 0px auto ;
 }
 .cards__item {
   width: 240px;
   display: flex;
   flex-direction: column;
-outline: 1px solid red;
-margin-top: 60px;
+  margin-top: 60px;
 
 }
 
 .cards__image {
-  outline: 1px solid red;
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -206,7 +198,7 @@ margin-top: 60px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  outline: 1px solid red;
+
 }
 
 .cards__description {
@@ -215,18 +207,38 @@ margin-top: 60px;
   font-size: 18px;
   font-weight: normal;
   text-align: center;
-  outline: 1px solid red;
+
+}
+
+/* ----------------------------------------------- video --------------------------------------------  */
+
+.main__video_position {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 100px;
+
 }
 
 
+.video__iframes {
+  width: 1050px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+
+}
 
 
+/* ----------------------------------------------- oakley --------------------------------------------  */
 
+.oakley {
+background-color:  #f2f2f2;
+padding-top: 60px;
 
-
-
-
-
+}
 
 /* ----------------------------------------------- digits --------------------------------------------  */
 
@@ -303,7 +315,7 @@ margin-top: 60px;
   background-size: 867px 637px;
   display:flex;
   flex-direction: column;
-  margin: 100px auto 0;
+  margin: 0 auto;
 
 }
 
