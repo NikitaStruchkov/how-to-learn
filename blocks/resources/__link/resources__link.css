@@ -1,0 +1,7 @@
+.resources__link:hover {
+  opacity: .5;
+  -webkit-transition-duration: .5s;
+       -o-transition-duration: .5s;
+          transition-duration: .5s;
+}
+

@@ -10,5 +10,6 @@
           justify-content: start;
   gap: 0 100px;
   margin: 0px auto;
+  list-style-type: none;
 
 }
